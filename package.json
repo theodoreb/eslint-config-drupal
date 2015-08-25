@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-drupal",
+  "version": "1.0.0",
+  "description": "Drupal ESlint configuration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theodoreb/eslint-config-drupal.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "drupal"
+  ],
+  "author": "Théodore BIADALA",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/theodoreb/eslint-config-drupal/issues"
+  },
+  "homepage": "https://github.com/theodoreb/eslint-config-drupal#readme"
+}
