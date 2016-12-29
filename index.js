@@ -1,7 +1,9 @@
 module.exports = {
   "extends": "eslint:recommended",
   "env": {
-    "browser": true
+    "browser": true,
+    "es6": true,
+    "node": true
   },
   "globals": {
     "Drupal": true,
@@ -30,13 +32,13 @@ module.exports = {
     "guard-for-in": 2,
     "indent": [2, 2, {"SwitchCase": 1}],
     "key-spacing": [2, {"beforeColon": false, "afterColon": true}],
+    "keyword-spacing": [2, {"before": true, "after": true}],
     "linebreak-style": [2, "unix"],
     "lines-around-comment": [2, {"beforeBlockComment": true, "afterBlockComment": false}],
     "new-parens": 2,
     "no-array-constructor": 2,
     "no-caller": 2,
     "no-catch-shadow": 2,
-    "no-empty-label": 2,
     "no-eval": 2,
     "no-extend-native": 2,
     "no-extra-bind": 2,
@@ -71,17 +73,16 @@ module.exports = {
     "object-curly-spacing": [2, "never"],
     "one-var": [2, "never"],
     "quote-props": [2, "consistent-as-needed"],
+    "quotes": [2, "single", "avoid-escape"],
     "semi": [2, "always"],
     "semi-spacing": [2, {"before": false, "after": true}],
-    "space-after-keywords": [2, "always"],
     "space-before-blocks": [2, "always"],
     "space-before-function-paren": [2, {"anonymous": "always", "named": "never"}],
     "space-in-parens": [2, "never"],
     "space-infix-ops": 2,
-    "space-return-throw-case": 2,
     "space-unary-ops": [2, { "words": true, "nonwords": false }],
     "spaced-comment": [2, "always"],
-    "strict": 2,
+    "strict": [2, "function"],
     "yoda": [2, "never"],
     // Warnings.
     "max-nested-callbacks": [1, 3],
