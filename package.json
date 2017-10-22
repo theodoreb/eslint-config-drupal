@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-drupal",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Drupal ESlint configuration",
   "main": "index.js",
   "repository": {
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/theodoreb/eslint-config-drupal/issues"
   },
-  "homepage": "https://github.com/theodoreb/eslint-config-drupal#readme"
+  "homepage": "https://github.com/theodoreb/eslint-config-drupal#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
 }
