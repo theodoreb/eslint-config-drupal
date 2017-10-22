@@ -4,7 +4,10 @@ Drupal ESlint configuration. To use it install the package and create
 an  `.eslintrc.json` file with the following:
 ```json
 {
-    "extends": "eslint-config-drupal"
+  "extends": [
+    "eslint-config-airbnb",
+    "eslint-config-drupal"
+  ]
 }
 ```
 
