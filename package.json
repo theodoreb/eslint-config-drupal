@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-drupal",
-  "version": "4.0.1",
+  "version": "5.0.1",
   "description": "Drupal ESlint configuration",
   "main": "index.js",
   "repository": {
@@ -18,7 +18,15 @@
     "url": "https://github.com/theodoreb/eslint-config-drupal/issues"
   },
   "homepage": "https://github.com/theodoreb/eslint-config-drupal#readme",
-  "peerDependencies": {
-    "eslint": ">= 3"
+  "dependencies": {
+    "eslint": "^6.7.2",
+    "prettier": "^1.14.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-react-hooks": "^1.7.0"
   }
 }

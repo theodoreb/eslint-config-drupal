@@ -1,12 +1,10 @@
 # eslint-config-drupal
 
-Drupal ESlint configuration. To use it install the package and create 
-an  `.eslintrc.json` file with the following:
+Drupal ESlint configuration. To use it create a`.eslintrc.json` file with the following content:
 ```json
 {
   "extends": [
-    "eslint-config-airbnb",
-    "eslint-config-drupal"
+    "drupal"
   ]
 }
 ```

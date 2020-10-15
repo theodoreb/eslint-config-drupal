@@ -1,5 +1,8 @@
 module.exports = {
-  "extends": "eslint-config-airbnb",
+  "extends": [
+    "airbnb",
+    "plugin:prettier/recommended"
+  ],
   "env": {
     "browser": true,
     "es6": true,
@@ -9,33 +12,40 @@ module.exports = {
     "Drupal": true,
     "drupalSettings": true,
     "drupalTranslations": true,
-    "domready": true,
     "jQuery": true,
     "_": true,
-    "matchMedia": true,
+    "Cookies": true,
     "Backbone": true,
     "Modernizr": true,
+    "Popper": true,
+    "Sortable": true,
     "CKEDITOR": true
   },
+  "settings": {
+    "react": {
+      "version": "latest"
+    }
+  },
   "rules": {
-    "consistent-return": [0],
-    "no-underscore-dangle": [0],
-    "max-nested-callbacks": [1, 3],
-    "import/no-mutable-exports": [1],
-    "no-plusplus": [1, {
+    "prettier/prettier": "error",
+    "consistent-return": ["off"],
+    "no-underscore-dangle": ["off"],
+    "max-nested-callbacks": ["warn", 3],
+    "import/no-mutable-exports": ["warn"],
+    "no-plusplus": ["warn", {
       "allowForLoopAfterthoughts": true
     }],
-    "no-param-reassign": [0],
-    "no-prototype-builtins": [0],
-    "valid-jsdoc": [1, {
+    "no-param-reassign": ["off"],
+    "no-prototype-builtins": ["off"],
+    "valid-jsdoc": ["warn", {
       "prefer": {
         "returns": "return",
         "property": "prop"
       },
       "requireReturn": false
     }],
-    "brace-style": ["error", "stroustrup"],
-    "no-unused-vars": [1]
+    "no-unused-vars": ["warn"],
+    "operator-linebreak": ["error", "after", { "overrides": { "?": "ignore", ":": "ignore" } }]
   }
 };
 
