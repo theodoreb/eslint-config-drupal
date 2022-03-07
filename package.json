@@ -19,14 +19,16 @@
   },
   "homepage": "https://github.com/theodoreb/eslint-config-drupal#readme",
   "dependencies": {
-    "eslint": "^6.7.2",
-    "prettier": "^1.14.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.10.0",
-    "eslint-plugin-react-hooks": "^1.7.0"
+    "eslint": "^8.9.0",
+    "prettier": "^2.1.2",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jquery": "^1.5.1",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-yml": "^0.14.0",
   }
 }
